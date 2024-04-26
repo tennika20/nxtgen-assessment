@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: raw
+    database: AssessmentDB
+    schema: public
+    tables:
+      - name: customers
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not null
+          - name: customer
+          - name: "First Name"
+          - name: "Last Name"
+          - name: company
+          - name: city
+          - name: country
+          - name: phone
+          - name: email
+          - name: subscription
+          - name: website
+
+      - name: products
+        columns:
+          - name: id
+            tests:
+              - relationships:
+                  to: source('raw','customers')
+                  field: id
+          - name: customer_id
+          - name: product_name

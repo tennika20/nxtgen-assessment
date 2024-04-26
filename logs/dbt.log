@@ -1,0 +1,85 @@
+[0m12:56:13.252958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD70534BF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD70534D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD70534BC0>]}
+
+
+============================== 12:56:13.256958 | 9618f2d0-e809-40f3-91c2-6c7ab1296d7b ==============================
+[0m12:56:13.256958 [info ] [MainThread]: Running with dbt=1.7.13
+[0m12:56:13.257959 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\tenni\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:56:28.151968 [debug] [MainThread]: Starter project path: C:\Users\tenni\PycharmProjects\python-assessment\assessmentenv\Lib\site-packages\dbt\include\starter_project
+[0m12:56:28.191360 [info ] [MainThread]: 
+Your new dbt project "data_pipeline_assessment" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:56:28.193331 [info ] [MainThread]: Setting up your profile.
+[0m13:10:22.464156 [info ] [MainThread]: Profile data_pipeline_assessment written to C:\Users\tenni\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:10:22.467684 [debug] [MainThread]: Command `dbt init` succeeded at 13:10:22.467684 after 849.34 seconds
+[0m13:10:22.468695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD70318FE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD70447020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD703B9790>]}
+[0m13:10:22.469696 [debug] [MainThread]: Flushing usage events
+[0m13:12:01.851813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208BD4EF8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208BD45B5F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208BD644D40>]}
+
+
+============================== 13:12:01.858827 | 146555b1-2b85-4405-a563-2d78d14a7117 ==============================
+[0m13:12:01.858827 [info ] [MainThread]: Running with dbt=1.7.13
+[0m13:12:01.859835 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\tenni\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m13:12:01.861848 [info ] [MainThread]: dbt version: 1.7.13
+[0m13:12:01.863925 [info ] [MainThread]: python version: 3.12.2
+[0m13:12:01.865508 [info ] [MainThread]: python path: C:\Users\tenni\PycharmProjects\python-assessment\assessmentenv\Scripts\python.exe
+[0m13:12:01.866453 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m13:12:01.963382 [info ] [MainThread]: Using profiles dir at C:\Users\tenni\.dbt
+[0m13:12:01.964374 [info ] [MainThread]: Using profiles.yml file at C:\Users\tenni\.dbt\profiles.yml
+[0m13:12:01.965911 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\tenni\PycharmProjects\python-assessment\dbt_project.yml
+[0m13:12:01.967837 [info ] [MainThread]: adapter type: postgres
+[0m13:12:01.967837 [info ] [MainThread]: adapter version: 1.7.13
+[0m13:12:01.968836 [info ] [MainThread]: Configuration:
+[0m13:12:01.968836 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:12:01.969837 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m13:12:01.969837 [info ] [MainThread]: Required dependencies:
+[0m13:12:01.970836 [debug] [MainThread]: Executing "git --help"
+[0m13:12:02.028768 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:12:02.029768 [debug] [MainThread]: STDERR: "b''"
+[0m13:12:02.029768 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:12:02.030769 [info ] [MainThread]: Connection:
+[0m13:12:02.031769 [info ] [MainThread]:   host: localhost
+[0m13:12:02.031769 [info ] [MainThread]:   port: 1234
+[0m13:12:02.032768 [info ] [MainThread]:   user: postgres
+[0m13:12:02.033768 [info ] [MainThread]:   database: AssessmentDB
+[0m13:12:02.033768 [info ] [MainThread]:   schema: public
+[0m13:12:02.034769 [info ] [MainThread]:   connect_timeout: 10
+[0m13:12:02.035768 [info ] [MainThread]:   role: None
+[0m13:12:02.035768 [info ] [MainThread]:   search_path: None
+[0m13:12:02.037097 [info ] [MainThread]:   keepalives_idle: 0
+[0m13:12:02.038106 [info ] [MainThread]:   sslmode: None
+[0m13:12:02.038106 [info ] [MainThread]:   sslcert: None
+[0m13:12:02.039105 [info ] [MainThread]:   sslkey: None
+[0m13:12:02.040102 [info ] [MainThread]:   sslrootcert: None
+[0m13:12:02.041103 [info ] [MainThread]:   application_name: dbt
+[0m13:12:02.042107 [info ] [MainThread]:   retries: 1
+[0m13:12:02.043112 [info ] [MainThread]: Registered adapter: postgres=1.7.13
+[0m13:12:02.045696 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m13:12:02.046627 [debug] [MainThread]: Using postgres connection "debug"
+[0m13:12:02.047624 [debug] [MainThread]: On debug: select 1 as id
+[0m13:12:02.048630 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:12:02.101778 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m13:12:02.102786 [debug] [MainThread]: On debug: Close
+[0m13:12:02.103780 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m13:12:02.104780 [info ] [MainThread]: [31m1 check failed:[0m
+[0m13:12:02.104780 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\tenni\PycharmProjects\python-assessment\dbt_project.yml> not found
+
+[0m13:12:02.106286 [debug] [MainThread]: Command `dbt debug` failed at 13:12:02.105780 after 0.44 seconds
+[0m13:12:02.106286 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m13:12:02.107293 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208BD4EF8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208BD53CBF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208BD2AA0C0>]}
+[0m13:12:02.107293 [debug] [MainThread]: Flushing usage events

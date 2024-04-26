@@ -1,0 +1,12 @@
+data_pipeline_assessment:
+  outputs:
+    dev:
+      dbname: AssessmentDB
+      host: localhost
+      pass: admin
+      port: 1234
+      schema: public
+      threads: 10
+      type: postgres
+      user: postgres
+  target: dev
